@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>My to-do list</h1>
+    <div class="main-form">
+      <div class="newtask">
+        <div class="new-input" id="input">
+          <label for="task">To-do:</label>
+          <input type="text" id="task" name="task" />
+        </div>
+        <div onclick="newItem(event)" class="submit">
+          <input type="submit" value="Save" />
+        </div>
+      </div>
+      <div class="checklist">
+        <!-- <div class="listItem">
+    <div class="checkBoxContainer">
+        <input type="checkbox" id="task" name="task">
+        <label for="task">input</label><br>
+    </div>
+    <div class="btn-delete">
+        <button>Delete</button>
+    </div>
+    </div> -->
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
